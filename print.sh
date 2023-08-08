@@ -4,7 +4,7 @@
 apt-get update
 apt-get install -y cups cups-client libcups2-dev cups-bsd system-config-printer ftp
 
-# Удаление cupsd.conf
+
 rm /etc/cups/cupsd.conf
 
 # Подключение по FTP и скачивание файла
